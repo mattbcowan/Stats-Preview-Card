@@ -49,6 +49,8 @@ I started off by reviewing the style guide. While looking through that I pulled 
 
 I set my CSS file up for a mobile first approach to make life easier. After that I hopped over to the HTML to clean it up and get items into their own sections. I pulled in the photos via the photos tag so that it could switch between mobile version and desktop while still keeping all the data needed for accessibility needs.
 
+After all of that it was time to move on with the actual CSS. I focused on the mobile version first and got all the styles added to the elements. Starting from the top down I adjusted the pieces to be as close to the JPEGs as possible. For the desktop layout it was just a couple of CSS changes in order to get it looking right. Job done.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -56,9 +58,6 @@ I set my CSS file up for a mobile first approach to make life easier. After that
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -67,26 +66,6 @@ I set my CSS file up for a mobile first approach to make life easier. After that
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 

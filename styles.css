@@ -66,6 +66,7 @@ picture {
   width: 100%;
   height: (auto + 5px);
   mix-blend-mode: multiply;
+  opacity: 65%;
 }
 
 main {
@@ -117,6 +118,7 @@ main li {
 @media (min-width: 1440px) {
   .card {
     grid-template-columns: 1fr 1fr;
+    max-width: 1112px;
   }
 
   header {
@@ -126,5 +128,23 @@ main li {
   main {
     grid-column: 1/2;
     grid-row: 1/2;
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 7em;
+    align-self: center;
+  }
+
+  main p {
+    margin-left: 0;
+    margin-bottom: 4em;
+  }
+
+  main ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main ul h2 {
+    padding-bottom: 0.25em;
   }
 }
