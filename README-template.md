@@ -47,7 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 I started off by reviewing the style guide. While looking through that I pulled all the colors, fonts, font sizes and media queries into a CSS file for use later. After that I grabbed the fonts from Google Fonts and imported them into the HTML so we had everything from the style guide ready to go.
 
-I set my CSS file up for a mobile first approach to make life easier. After that I hopped over to the HTML to clean it up and get items into their own sections.
+I set my CSS file up for a mobile first approach to make life easier. After that I hopped over to the HTML to clean it up and get items into their own sections. I pulled in the photos via the photos tag so that it could switch between mobile version and desktop while still keeping all the data needed for accessibility needs.
 
 ### Built with
 
